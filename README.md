@@ -6,13 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 145 | 22 |
+| 146 | 23 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (4)
+- [Uncategorized](#uncategorized) (1)
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (28)
@@ -45,6 +46,12 @@
 | 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/158/B%20-%20Taxi/solution.py) |
 | 2095A | [Piecing It Together](https://codeforces.com/contest/2095/problem/A) | Unrated | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2095/A%20-%20Piecing%20It%20Together/solution.py) |
 | 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.py) |
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2278A | [Fraction and Six](https://codeforces.com/contest/2278/problem/A) | Unrated | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2278/A%20-%20Fraction%20and%20Six/solution.py) |
 
 ### binary search
 
