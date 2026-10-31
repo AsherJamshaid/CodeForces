@@ -6,15 +6,17 @@
 
 | Total Problems | Topics |
 |---|---|
-| 10 | 5 |
+| 11 | 7 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [brute force](#brute-force) (2)
+- [dfs and similar](#dfs-and-similar) (1)
+- [graphs](#graphs) (1)
 - [greedy](#greedy) (1)
-- [implementation](#implementation) (7)
+- [implementation](#implementation) (8)
 - [math](#math) (3)
 - [strings](#strings) (3)
 
@@ -26,6 +28,18 @@
 |---|---------|------------|----------|
 | 271A | [Beautiful Year](https://codeforces.com/contest/271/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/271/A%20-%20Beautiful%20Year/solution.py) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
+
+### dfs and similar
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 500A | [New Year Transportation](https://codeforces.com/contest/500/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/500/A%20-%20New%20Year%20Transportation/solution.py) |
+
+### graphs
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 500A | [New Year Transportation](https://codeforces.com/contest/500/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/500/A%20-%20New%20Year%20Transportation/solution.py) |
 
 ### greedy
 
@@ -40,6 +54,7 @@
 | 110A | [Nearly Lucky Number](https://codeforces.com/contest/110/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/110/A%20-%20Nearly%20Lucky%20Number/solution.py) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/118/A%20-%20String%20Task/solution.py) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.py) |
+| 500A | [New Year Transportation](https://codeforces.com/contest/500/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/500/A%20-%20New%20Year%20Transportation/solution.py) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
 | 1073A | [Diverse Substring](https://codeforces.com/contest/1073/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1073/A%20-%20Diverse%20Substring/solution.py) |
 | 1619A | [Square String?](https://codeforces.com/contest/1619/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1619/A%20-%20Square%20String%3F/solution.py) |
