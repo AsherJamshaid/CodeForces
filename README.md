@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 11 | 7 |
+| 24 | 7 |
 
 ---
 
@@ -16,9 +16,9 @@
 - [dfs and similar](#dfs-and-similar) (1)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (1)
-- [implementation](#implementation) (8)
-- [math](#math) (3)
-- [strings](#strings) (3)
+- [implementation](#implementation) (20)
+- [math](#math) (4)
+- [strings](#strings) (10)
 
 ---
 
@@ -51,11 +51,23 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 41A | [Translation](https://codeforces.com/contest/41/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/41/A%20-%20Translation/solution.py) |
+| 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/59/A%20-%20Word/solution.py) |
+| 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/69/A%20-%20Young%20Physicist/solution.py) |
+| 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/96/A%20-%20Football/solution.py) |
 | 110A | [Nearly Lucky Number](https://codeforces.com/contest/110/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/110/A%20-%20Nearly%20Lucky%20Number/solution.py) |
+| 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.py) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/118/A%20-%20String%20Task/solution.py) |
+| 266A | [Stones on the Table](https://codeforces.com/contest/266/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/266/A%20-%20Stones%20on%20the%20Table/solution.py) |
+| 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.py) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.py) |
 | 500A | [New Year Transportation](https://codeforces.com/contest/500/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/500/A%20-%20New%20Year%20Transportation/solution.py) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
+| 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.py) |
+| 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.py) |
+| 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.py) |
+| 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.py) |
+| 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.py) |
 | 1073A | [Diverse Substring](https://codeforces.com/contest/1073/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1073/A%20-%20Diverse%20Substring/solution.py) |
 | 1619A | [Square String?](https://codeforces.com/contest/1619/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1619/A%20-%20Square%20String%3F/solution.py) |
 | 1722A | [Spell Check](https://codeforces.com/contest/1722/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1722/A%20-%20Spell%20Check/solution.py) |
@@ -66,13 +78,21 @@
 |---|---------|------------|----------|
 | 1A | [Theatre Square](https://codeforces.com/contest/1/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1/A%20-%20Theatre%20Square/solution.py) |
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/50/A%20-%20Domino%20piling/solution.py) |
+| 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/69/A%20-%20Young%20Physicist/solution.py) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
 
 ### strings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 41A | [Translation](https://codeforces.com/contest/41/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/41/A%20-%20Translation/solution.py) |
+| 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/59/A%20-%20Word/solution.py) |
+| 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.py) |
+| 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/96/A%20-%20Football/solution.py) |
+| 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.py) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/118/A%20-%20String%20Task/solution.py) |
+| 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.py) |
+| 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.py) |
 | 1073A | [Diverse Substring](https://codeforces.com/contest/1073/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1073/A%20-%20Diverse%20Substring/solution.py) |
 | 1619A | [Square String?](https://codeforces.com/contest/1619/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1619/A%20-%20Square%20String%3F/solution.py) |
 
