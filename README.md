@@ -6,32 +6,33 @@
 
 | Total Problems | Topics |
 |---|---|
-| 140 | 21 |
+| 145 | 22 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [*special](#special) (3)
+- [*special](#special) (4)
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (28)
 - [constructive algorithms](#constructive-algorithms) (6)
 - [data structures](#data-structures) (1)
-- [dfs and similar](#dfs-and-similar) (1)
-- [games](#games) (2)
+- [dfs and similar](#dfs-and-similar) (2)
+- [games](#games) (3)
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (1)
-- [graphs](#graphs) (1)
-- [greedy](#greedy) (20)
+- [graphs](#graphs) (2)
+- [greedy](#greedy) (22)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (89)
-- [math](#math) (49)
-- [number theory](#number-theory) (6)
-- [sortings](#sortings) (10)
+- [implementation](#implementation) (91)
+- [math](#math) (50)
+- [number theory](#number-theory) (7)
+- [sortings](#sortings) (11)
 - [string suffix structures](#string-suffix-structures) (1)
 - [strings](#strings) (31)
 - [ternary search](#ternary-search) (1)
+- [trees](#trees) (1)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -41,6 +42,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/158/A%20-%20Next%20Round/solution.py) |
+| 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/158/B%20-%20Taxi/solution.py) |
 | 2095A | [Piecing It Together](https://codeforces.com/contest/2095/problem/A) | Unrated | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2095/A%20-%20Piecing%20It%20Together/solution.py) |
 | 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.py) |
 
@@ -111,6 +113,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 115A | [Party](https://codeforces.com/contest/115/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/115/A%20-%20Party/solution.py) |
 | 500A | [New Year Transportation](https://codeforces.com/contest/500/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/500/A%20-%20New%20Year%20Transportation/solution.py) |
 
 ### games
@@ -119,6 +122,7 @@
 |---|---------|------------|----------|
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.py) |
+| 2263A | [Min Max Game](https://codeforces.com/contest/2263/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2263/A%20-%20Min%20Max%20Game/solution.py) |
 
 ### geometry
 
@@ -137,6 +141,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 115A | [Party](https://codeforces.com/contest/115/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/115/A%20-%20Party/solution.py) |
 | 500A | [New Year Transportation](https://codeforces.com/contest/500/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/500/A%20-%20New%20Year%20Transportation/solution.py) |
 
 ### greedy
@@ -145,6 +150,7 @@
 |---|---------|------------|----------|
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/50/A%20-%20Domino%20piling/solution.py) |
 | 58A | [Chat room](https://codeforces.com/contest/58/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/58/A%20-%20Chat%20room/solution.py) |
+| 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/158/B%20-%20Taxi/solution.py) |
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/160/A%20-%20Twins/solution.py) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/231/A%20-%20Team/solution.py) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.py) |
@@ -162,6 +168,7 @@
 | 2194A | [Lawn Mower](https://codeforces.com/contest/2194/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2194/A%20-%20Lawn%20Mower/solution.py) |
 | 2200A | [Eating Game](https://codeforces.com/contest/2200/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2200/A%20-%20Eating%20Game/solution.py) |
 | 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.py) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.py) |
 | 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.py) |
 
 ### hashing
@@ -188,6 +195,7 @@
 | 144A | [Arrival of the General](https://codeforces.com/contest/144/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/144/A%20-%20Arrival%20of%20the%20General/solution.py) |
 | 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.py) |
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/158/A%20-%20Next%20Round/solution.py) |
+| 158B | [Taxi](https://codeforces.com/contest/158/problem/B) | 1100 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/158/B%20-%20Taxi/solution.py) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/200/B%20-%20Drinks/solution.py) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
 | 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.py) |
@@ -262,6 +270,7 @@
 | 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.py) |
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.py) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2227/A%20-%20Koshary/solution.py) |
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2254/A%20-%20Riptide/solution.py) |
 | 2260A | [Monocarp's Contest](https://codeforces.com/contest/2260/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2260/A%20-%20Monocarp's%20Contest/solution.py) |
 
 ### math
@@ -317,6 +326,7 @@
 | 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.py) |
 | 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.py) |
 | 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2227/A%20-%20Koshary/solution.py) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.py) |
 
 ### number theory
 
@@ -328,6 +338,7 @@
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 | 1985B | [Maximum Multiple Sum](https://codeforces.com/contest/1985/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1985/B%20-%20Maximum%20Multiple%20Sum/solution.py) |
 | 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.py) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.py) |
 
 ### sortings
 
@@ -343,6 +354,7 @@
 | 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2167/A%20-%20Square%3F/solution.py) |
 | 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2167/B%20-%20Your%20Name/solution.py) |
 | 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.py) |
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2254/A%20-%20Riptide/solution.py) |
 
 ### string suffix structures
 
@@ -391,6 +403,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1996A | [Legs](https://codeforces.com/contest/1996/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1996/A%20-%20Legs/solution.py) |
+
+### trees
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 115A | [Party](https://codeforces.com/contest/115/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/115/A%20-%20Party/solution.py) |
 
 ### two pointers
 
