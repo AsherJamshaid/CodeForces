@@ -6,34 +6,132 @@
 
 | Total Problems | Topics |
 |---|---|
-| 24 | 7 |
+| 140 | 21 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [brute force](#brute-force) (2)
+- [*special](#special) (3)
+- [binary search](#binary-search) (1)
+- [bitmasks](#bitmasks) (2)
+- [brute force](#brute-force) (28)
+- [constructive algorithms](#constructive-algorithms) (6)
+- [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
+- [games](#games) (2)
+- [geometry](#geometry) (2)
+- [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (1)
-- [implementation](#implementation) (20)
-- [math](#math) (4)
-- [strings](#strings) (10)
+- [greedy](#greedy) (20)
+- [hashing](#hashing) (1)
+- [implementation](#implementation) (89)
+- [math](#math) (49)
+- [number theory](#number-theory) (6)
+- [sortings](#sortings) (10)
+- [string suffix structures](#string-suffix-structures) (1)
+- [strings](#strings) (31)
+- [ternary search](#ternary-search) (1)
+- [two pointers](#two-pointers) (1)
 
 ---
+
+### *special
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/158/A%20-%20Next%20Round/solution.py) |
+| 2095A | [Piecing It Together](https://codeforces.com/contest/2095/problem/A) | Unrated | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2095/A%20-%20Piecing%20It%20Together/solution.py) |
+| 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.py) |
+
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1996A | [Legs](https://codeforces.com/contest/1996/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1996/A%20-%20Legs/solution.py) |
+
+### bitmasks
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1915A | [Odd One Out](https://codeforces.com/contest/1915/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1915/A%20-%20Odd%20One%20Out/solution.py) |
+| 1915B | [Not Quite Latin Square](https://codeforces.com/contest/1915/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1915/B%20-%20Not%20Quite%20Latin%20Square/solution.py) |
 
 ### brute force
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/4/A%20-%20Watermelon/solution.py) |
+| 25A | [IQ test](https://codeforces.com/contest/25/problem/A) | 1300 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/25/A%20-%20IQ%20test/solution.py) |
+| 122A | [Lucky Division](https://codeforces.com/contest/122/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/122/A%20-%20Lucky%20Division/solution.py) |
+| 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/231/A%20-%20Team/solution.py) |
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
 | 271A | [Beautiful Year](https://codeforces.com/contest/271/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/271/A%20-%20Beautiful%20Year/solution.py) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
+| 1512A | [Spy Detected!](https://codeforces.com/contest/1512/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1512/A%20-%20Spy%20Detected!/solution.py) |
+| 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.py) |
+| 1873A | [Short Sort](https://codeforces.com/contest/1873/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1873/A%20-%20Short%20Sort/solution.py) |
+| 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.py) |
+| 1915B | [Not Quite Latin Square](https://codeforces.com/contest/1915/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1915/B%20-%20Not%20Quite%20Latin%20Square/solution.py) |
+| 1985B | [Maximum Multiple Sum](https://codeforces.com/contest/1985/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1985/B%20-%20Maximum%20Multiple%20Sum/solution.py) |
+| 2008A | [Sakurako's Exam](https://codeforces.com/contest/2008/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2008/A%20-%20Sakurako's%20Exam/solution.py) |
+| 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2009/A%20-%20Minimize!/solution.cpp) |
+| 2009B | [osu!mania](https://codeforces.com/contest/2009/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2009/B%20-%20osu!mania/solution.py) |
+| 2010A | [Alternating Sum of Numbers](https://codeforces.com/contest/2010/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2010/A%20-%20Alternating%20Sum%20of%20Numbers/solution.py) |
+| 2010B | [Three Brothers](https://codeforces.com/contest/2010/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2010/B%20-%20Three%20Brothers/solution.py) |
+| 2044A | [Easy Problem](https://codeforces.com/contest/2044/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2044/A%20-%20Easy%20Problem/solution.py) |
+| 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.py) |
+| 2106A | [Dr. TC](https://codeforces.com/contest/2106/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2106/A%20-%20Dr.%20TC/solution.py) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
+| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2132/A%20-%20Homework/solution.py) |
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.py) |
+| 2171A | [Shizuku Hoshikawa and Farm Legs](https://codeforces.com/contest/2171/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2171/A%20-%20Shizuku%20Hoshikawa%20and%20Farm%20Legs/solution.py) |
+| 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.py) |
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.py) |
+| 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.py) |
+
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 443A | [Anton and Letters](https://codeforces.com/contest/443/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/443/A%20-%20Anton%20and%20Letters/solution.py) |
+| 2008A | [Sakurako's Exam](https://codeforces.com/contest/2008/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2008/A%20-%20Sakurako's%20Exam/solution.py) |
+| 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.py) |
+| 2137A | [Collatz Conjecture](https://codeforces.com/contest/2137/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2137/A%20-%20Collatz%20Conjecture/solution.py) |
+| 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.py) |
+| 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.py) |
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1703B | [ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1703/B%20-%20ICPC%20Balloons/solution.py) |
 
 ### dfs and similar
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 500A | [New Year Transportation](https://codeforces.com/contest/500/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/500/A%20-%20New%20Year%20Transportation/solution.py) |
+
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.py) |
+
+### geometry
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1791B | [Following Directions](https://codeforces.com/contest/1791/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1791/B%20-%20Following%20Directions/solution.py) |
+| 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.py) |
+
+### graph matchings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.py) |
 
 ### graphs
 
@@ -46,55 +144,259 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/50/A%20-%20Domino%20piling/solution.py) |
+| 58A | [Chat room](https://codeforces.com/contest/58/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/58/A%20-%20Chat%20room/solution.py) |
+| 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/160/A%20-%20Twins/solution.py) |
+| 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/231/A%20-%20Team/solution.py) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.py) |
+| 469A | [I Wanna Be the Guy](https://codeforces.com/contest/469/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/469/A%20-%20I%20Wanna%20Be%20the%20Guy/solution.py) |
+| 1409A | [Yet Another Two Integers Problem](https://codeforces.com/contest/1409/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1409/A%20-%20Yet%20Another%20Two%20Integers%20Problem/solution.py) |
+| 1742B | [Increasing](https://codeforces.com/contest/1742/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1742/B%20-%20Increasing/solution.py) |
+| 1760B | [Atilla's Favorite Problem](https://codeforces.com/contest/1760/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1760/B%20-%20Atilla's%20Favorite%20Problem/solution.py) |
+| 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1921/A%20-%20Square/solution.py) |
+| 2008A | [Sakurako's Exam](https://codeforces.com/contest/2008/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2008/A%20-%20Sakurako's%20Exam/solution.py) |
+| 2044C | [Hard Problem](https://codeforces.com/contest/2044/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2044/C%20-%20Hard%20Problem/solution.cpp) |
+| 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.py) |
+| 2091A | [Olympiad Date](https://codeforces.com/contest/2091/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2091/A%20-%20Olympiad%20Date/solution.py) |
+| 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.py) |
+| 2185B | [Prefix Max](https://codeforces.com/contest/2185/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2185/B%20-%20Prefix%20Max/solution.py) |
+| 2194A | [Lawn Mower](https://codeforces.com/contest/2194/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2194/A%20-%20Lawn%20Mower/solution.py) |
+| 2200A | [Eating Game](https://codeforces.com/contest/2200/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2200/A%20-%20Eating%20Game/solution.py) |
+| 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.py) |
+| 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.py) |
+
+### hashing
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.py) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 41A | [Translation](https://codeforces.com/contest/41/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/41/A%20-%20Translation/solution.py) |
+| 52A | [123-sequence](https://codeforces.com/contest/52/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/52/A%20-%20123-sequence/solution.py) |
 | 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/59/A%20-%20Word/solution.py) |
+| 61A | [Ultra-Fast Mathematician](https://codeforces.com/contest/61/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/61/A%20-%20Ultra-Fast%20Mathematician/solution.py) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/69/A%20-%20Young%20Physicist/solution.py) |
 | 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/96/A%20-%20Football/solution.py) |
 | 110A | [Nearly Lucky Number](https://codeforces.com/contest/110/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/110/A%20-%20Nearly%20Lucky%20Number/solution.py) |
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.py) |
+| 116A | [Tram](https://codeforces.com/contest/116/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/116/A%20-%20Tram/solution.py) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/118/A%20-%20String%20Task/solution.py) |
+| 133A | [HQ9+](https://codeforces.com/contest/133/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/133/A%20-%20HQ9%2B/solution.py) |
+| 144A | [Arrival of the General](https://codeforces.com/contest/144/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/144/A%20-%20Arrival%20of%20the%20General/solution.py) |
+| 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.py) |
+| 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/158/A%20-%20Next%20Round/solution.py) |
+| 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/200/B%20-%20Drinks/solution.py) |
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
+| 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.py) |
 | 266A | [Stones on the Table](https://codeforces.com/contest/266/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/266/A%20-%20Stones%20on%20the%20Table/solution.py) |
+| 276A | [Lunch Rush](https://codeforces.com/contest/276/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/276/A%20-%20Lunch%20Rush/solution.py) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.py) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.py) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.py) |
+| 344A | [Magnets](https://codeforces.com/contest/344/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/344/A%20-%20Magnets/solution.py) |
+| 443A | [Anton and Letters](https://codeforces.com/contest/443/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/443/A%20-%20Anton%20and%20Letters/solution.py) |
+| 467A | [George and Accommodation](https://codeforces.com/contest/467/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/467/A%20-%20George%20and%20Accommodation/solution.py) |
+| 469A | [I Wanna Be the Guy](https://codeforces.com/contest/469/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/469/A%20-%20I%20Wanna%20Be%20the%20Guy/solution.py) |
+| 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/486/A%20-%20Calculating%20Function/solution.py) |
 | 500A | [New Year Transportation](https://codeforces.com/contest/500/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/500/A%20-%20New%20Year%20Transportation/solution.py) |
+| 520A | [Pangram](https://codeforces.com/contest/520/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/520/A%20-%20Pangram/solution.py) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
+| 581A | [Vasya the Hipster](https://codeforces.com/contest/581/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/581/A%20-%20Vasya%20the%20Hipster/solution.py) |
 | 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.py) |
+| 703A | [Mishka and Game](https://codeforces.com/contest/703/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/703/A%20-%20Mishka%20and%20Game/solution.py) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.py) |
+| 758A | [Holiday Of Equality](https://codeforces.com/contest/758/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/758/A%20-%20Holiday%20Of%20Equality/solution.py) |
+| 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.py) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.py) |
 | 977A | [Wrong Subtraction](https://codeforces.com/contest/977/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/977/A%20-%20Wrong%20Subtraction/solution.py) |
 | 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.py) |
 | 1073A | [Diverse Substring](https://codeforces.com/contest/1073/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1073/A%20-%20Diverse%20Substring/solution.py) |
+| 1512A | [Spy Detected!](https://codeforces.com/contest/1512/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1512/A%20-%20Spy%20Detected!/solution.py) |
+| 1560A | [Dislike of Threes](https://codeforces.com/contest/1560/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1560/A%20-%20Dislike%20of%20Threes/solution.py) |
 | 1619A | [Square String?](https://codeforces.com/contest/1619/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1619/A%20-%20Square%20String%3F/solution.py) |
+| 1669A | [Division?](https://codeforces.com/contest/1669/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1669/A%20-%20Division%3F/solution.py) |
+| 1676A | [Lucky?](https://codeforces.com/contest/1676/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1676/A%20-%20Lucky%3F/solution.py) |
+| 1692A | [Marathon](https://codeforces.com/contest/1692/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1692/A%20-%20Marathon/solution.py) |
+| 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.py) |
+| 1703B | [ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1703/B%20-%20ICPC%20Balloons/solution.py) |
 | 1722A | [Spell Check](https://codeforces.com/contest/1722/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1722/A%20-%20Spell%20Check/solution.py) |
+| 1722B | [Colourblindness](https://codeforces.com/contest/1722/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1722/B%20-%20Colourblindness/solution.py) |
+| 1742A | [Sum](https://codeforces.com/contest/1742/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1742/A%20-%20Sum/solution.py) |
+| 1742B | [Increasing](https://codeforces.com/contest/1742/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1742/B%20-%20Increasing/solution.py) |
+| 1760A | [Medium Number](https://codeforces.com/contest/1760/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1760/A%20-%20Medium%20Number/solution.py) |
+| 1760B | [Atilla's Favorite Problem](https://codeforces.com/contest/1760/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1760/B%20-%20Atilla's%20Favorite%20Problem/solution.py) |
+| 1772A | [A+B?](https://codeforces.com/contest/1772/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1772/A%20-%20A%2BB%3F/solution.py) |
+| 1790A | [Polycarp and the Day of Pi](https://codeforces.com/contest/1790/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1790/A%20-%20Polycarp%20and%20the%20Day%20of%20Pi/solution.py) |
+| 1791A | [Codeforces Checking](https://codeforces.com/contest/1791/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1791/A%20-%20Codeforces%20Checking/solution.py) |
+| 1791B | [Following Directions](https://codeforces.com/contest/1791/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1791/B%20-%20Following%20Directions/solution.py) |
+| 1807A | [Plus or Minus](https://codeforces.com/contest/1807/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1807/A%20-%20Plus%20or%20Minus/solution.py) |
+| 1829A | [Love Story](https://codeforces.com/contest/1829/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1829/A%20-%20Love%20Story/solution.py) |
+| 1829B | [Blank Space](https://codeforces.com/contest/1829/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1829/B%20-%20Blank%20Space/solution.py) |
+| 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.py) |
+| 1850B | [Ten Words of Wisdom](https://codeforces.com/contest/1850/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1850/B%20-%20Ten%20Words%20of%20Wisdom/solution.py) |
+| 1873A | [Short Sort](https://codeforces.com/contest/1873/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1873/A%20-%20Short%20Sort/solution.py) |
+| 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1873/C%20-%20Target%20Practice/solution.py) |
+| 1915A | [Odd One Out](https://codeforces.com/contest/1915/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1915/A%20-%20Odd%20One%20Out/solution.py) |
+| 1915B | [Not Quite Latin Square](https://codeforces.com/contest/1915/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1915/B%20-%20Not%20Quite%20Latin%20Square/solution.py) |
+| 1926A | [Vlad and the Best of Five](https://codeforces.com/contest/1926/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1926/A%20-%20Vlad%20and%20the%20Best%20of%20Five/solution.py) |
+| 1950A | [Stair, Peak, or Neither?](https://codeforces.com/contest/1950/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1950/A%20-%20Stair%2C%20Peak%2C%20or%20Neither%3F/solution.cpp) |
+| 1950C | [Clock Conversion](https://codeforces.com/contest/1950/problem/C) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1950/C%20-%20Clock%20Conversion/solution.py) |
+| 1971A | [My First Sorting Problem](https://codeforces.com/contest/1971/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1971/A%20-%20My%20First%20Sorting%20Problem/solution.py) |
+| 1971B | [Different String](https://codeforces.com/contest/1971/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1971/B%20-%20Different%20String/solution.py) |
+| 1985A | [Creating Words](https://codeforces.com/contest/1985/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1985/A%20-%20Creating%20Words/solution.cpp) |
+| 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.cpp) |
+| 2009B | [osu!mania](https://codeforces.com/contest/2009/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2009/B%20-%20osu!mania/solution.py) |
+| 2010A | [Alternating Sum of Numbers](https://codeforces.com/contest/2010/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2010/A%20-%20Alternating%20Sum%20of%20Numbers/solution.py) |
+| 2010B | [Three Brothers](https://codeforces.com/contest/2010/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2010/B%20-%20Three%20Brothers/solution.py) |
+| 2036A | [Quintomania](https://codeforces.com/contest/2036/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2036/A%20-%20Quintomania/solution.py) |
+| 2044B | [Normal Problem](https://codeforces.com/contest/2044/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2044/B%20-%20Normal%20Problem/solution.cpp) |
+| 2050A | [Line Breaks](https://codeforces.com/contest/2050/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2050/A%20-%20Line%20Breaks/solution.py) |
+| 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.py) |
+| 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.py) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
+| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2132/A%20-%20Homework/solution.py) |
+| 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.py) |
+| 2214A | [Odd One Out](https://codeforces.com/contest/2214/problem/A) | Unrated | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2214/A%20-%20Odd%20One%20Out/solution.py) |
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.py) |
+| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2227/A%20-%20Koshary/solution.py) |
+| 2260A | [Monocarp's Contest](https://codeforces.com/contest/2260/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2260/A%20-%20Monocarp's%20Contest/solution.py) |
 
 ### math
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1A | [Theatre Square](https://codeforces.com/contest/1/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1/A%20-%20Theatre%20Square/solution.py) |
+| 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/4/A%20-%20Watermelon/solution.py) |
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/50/A%20-%20Domino%20piling/solution.py) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/69/A%20-%20Young%20Physicist/solution.py) |
+| 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.py) |
+| 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/200/B%20-%20Drinks/solution.py) |
+| 318A | [Even Odds](https://codeforces.com/contest/318/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/318/A%20-%20Even%20Odds/solution.py) |
+| 486A | [Calculating Function](https://codeforces.com/contest/486/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/486/A%20-%20Calculating%20Function/solution.py) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.py) |
+| 581A | [Vasya the Hipster](https://codeforces.com/contest/581/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/581/A%20-%20Vasya%20the%20Hipster/solution.py) |
+| 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/617/A%20-%20Elephant/solution.py) |
+| 758A | [Holiday Of Equality](https://codeforces.com/contest/758/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/758/A%20-%20Holiday%20Of%20Equality/solution.py) |
+| 1283A | [Minutes Before the New Year](https://codeforces.com/contest/1283/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1283/A%20-%20Minutes%20Before%20the%20New%20Year/solution.py) |
+| 1328A | [Divisibility Problem](https://codeforces.com/contest/1328/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1328/A%20-%20Divisibility%20Problem/solution.py) |
+| 1409A | [Yet Another Two Integers Problem](https://codeforces.com/contest/1409/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1409/A%20-%20Yet%20Another%20Two%20Integers%20Problem/solution.py) |
+| 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.py) |
+| 1790A | [Polycarp and the Day of Pi](https://codeforces.com/contest/1790/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1790/A%20-%20Polycarp%20and%20the%20Day%20of%20Pi/solution.py) |
+| 1866A | [Ambitious Kid](https://codeforces.com/contest/1866/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1866/A%20-%20Ambitious%20Kid/solution.py) |
+| 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1873/C%20-%20Target%20Practice/solution.py) |
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
+| 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1921/A%20-%20Square/solution.py) |
+| 1950C | [Clock Conversion](https://codeforces.com/contest/1950/problem/C) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1950/C%20-%20Clock%20Conversion/solution.py) |
+| 1955A | [Yogurt Sale](https://codeforces.com/contest/1955/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1955/A%20-%20Yogurt%20Sale/solution.py) |
+| 1980A | [Problem Generator](https://codeforces.com/contest/1980/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1980/A%20-%20Problem%20Generator/solution.py) |
+| 1985B | [Maximum Multiple Sum](https://codeforces.com/contest/1985/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1985/B%20-%20Maximum%20Multiple%20Sum/solution.py) |
+| 1996A | [Legs](https://codeforces.com/contest/1996/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1996/A%20-%20Legs/solution.py) |
+| 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.cpp) |
+| 2008A | [Sakurako's Exam](https://codeforces.com/contest/2008/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2008/A%20-%20Sakurako's%20Exam/solution.py) |
+| 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2009/A%20-%20Minimize!/solution.cpp) |
+| 2010A | [Alternating Sum of Numbers](https://codeforces.com/contest/2010/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2010/A%20-%20Alternating%20Sum%20of%20Numbers/solution.py) |
+| 2010B | [Three Brothers](https://codeforces.com/contest/2010/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2010/B%20-%20Three%20Brothers/solution.py) |
+| 2044A | [Easy Problem](https://codeforces.com/contest/2044/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2044/A%20-%20Easy%20Problem/solution.py) |
+| 2044C | [Hard Problem](https://codeforces.com/contest/2044/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2044/C%20-%20Hard%20Problem/solution.cpp) |
+| 2106A | [Dr. TC](https://codeforces.com/contest/2106/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2106/A%20-%20Dr.%20TC/solution.py) |
+| 2123A | [Blackboard Game](https://codeforces.com/contest/2123/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2123/A%20-%20Blackboard%20Game/solution.py) |
+| 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.py) |
+| 2137A | [Collatz Conjecture](https://codeforces.com/contest/2137/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2137/A%20-%20Collatz%20Conjecture/solution.py) |
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.py) |
+| 2149A | [Be Positive](https://codeforces.com/contest/2149/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2149/A%20-%20Be%20Positive/solution.py) |
+| 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2167/A%20-%20Square%3F/solution.py) |
+| 2171A | [Shizuku Hoshikawa and Farm Legs](https://codeforces.com/contest/2171/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2171/A%20-%20Shizuku%20Hoshikawa%20and%20Farm%20Legs/solution.py) |
+| 2184A | [Social Experiment](https://codeforces.com/contest/2184/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2184/A%20-%20Social%20Experiment/solution.py) |
+| 2185A | [Perfect Root](https://codeforces.com/contest/2185/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2185/A%20-%20Perfect%20Root/solution.py) |
+| 2193A | [DBMB and the Array](https://codeforces.com/contest/2193/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2193/A%20-%20DBMB%20and%20the%20Array/solution.py) |
+| 2194A | [Lawn Mower](https://codeforces.com/contest/2194/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2194/A%20-%20Lawn%20Mower/solution.py) |
+| 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.py) |
+| 2218A | [The 67th Integer Problem](https://codeforces.com/contest/2218/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2218/A%20-%20The%2067th%20Integer%20Problem/solution.py) |
+| 2218B | [The 67th 6-7 Integer Problem](https://codeforces.com/contest/2218/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2218/B%20-%20The%2067th%206-7%20Integer%20Problem/solution.py) |
+| 2227A | [Koshary](https://codeforces.com/contest/2227/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2227/A%20-%20Koshary/solution.py) |
+
+### number theory
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 122A | [Lucky Division](https://codeforces.com/contest/122/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/122/A%20-%20Lucky%20Division/solution.py) |
+| 630A | [Again Twenty Five!](https://codeforces.com/contest/630/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/630/A%20-%20Again%20Twenty%20Five!/solution.py) |
+| 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.py) |
+| 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
+| 1985B | [Maximum Multiple Sum](https://codeforces.com/contest/1985/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1985/B%20-%20Maximum%20Multiple%20Sum/solution.py) |
+| 2195A | [Sieve of Erato67henes](https://codeforces.com/contest/2195/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2195/A%20-%20Sieve%20of%20Erato67henes/solution.py) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/160/A%20-%20Twins/solution.py) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.py) |
+| 1742B | [Increasing](https://codeforces.com/contest/1742/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1742/B%20-%20Increasing/solution.py) |
+| 1760A | [Medium Number](https://codeforces.com/contest/1760/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1760/A%20-%20Medium%20Number/solution.py) |
+| 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.py) |
+| 1850B | [Ten Words of Wisdom](https://codeforces.com/contest/1850/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1850/B%20-%20Ten%20Words%20of%20Wisdom/solution.py) |
+| 1971A | [My First Sorting Problem](https://codeforces.com/contest/1971/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1971/A%20-%20My%20First%20Sorting%20Problem/solution.py) |
+| 2167A | [Square?](https://codeforces.com/contest/2167/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2167/A%20-%20Square%3F/solution.py) |
+| 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2167/B%20-%20Your%20Name/solution.py) |
+| 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.py) |
+
+### string suffix structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2095A | [Piecing It Together](https://codeforces.com/contest/2095/problem/A) | Unrated | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2095/A%20-%20Piecing%20It%20Together/solution.py) |
 
 ### strings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 41A | [Translation](https://codeforces.com/contest/41/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/41/A%20-%20Translation/solution.py) |
+| 43A | [Football](https://codeforces.com/contest/43/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/43/A%20-%20Football/solution.py) |
+| 58A | [Chat room](https://codeforces.com/contest/58/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/58/A%20-%20Chat%20room/solution.py) |
 | 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/59/A%20-%20Word/solution.py) |
 | 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.py) |
 | 96A | [Football](https://codeforces.com/contest/96/problem/A) | 900 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/96/A%20-%20Football/solution.py) |
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.py) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/118/A%20-%20String%20Task/solution.py) |
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.py) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.py) |
+| 520A | [Pangram](https://codeforces.com/contest/520/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/520/A%20-%20Pangram/solution.py) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.py) |
+| 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.py) |
 | 1073A | [Diverse Substring](https://codeforces.com/contest/1073/problem/A) | 1000 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1073/A%20-%20Diverse%20Substring/solution.py) |
 | 1619A | [Square String?](https://codeforces.com/contest/1619/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1619/A%20-%20Square%20String%3F/solution.py) |
+| 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.py) |
+| 1760B | [Atilla's Favorite Problem](https://codeforces.com/contest/1760/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1760/B%20-%20Atilla's%20Favorite%20Problem/solution.py) |
+| 1790A | [Polycarp and the Day of Pi](https://codeforces.com/contest/1790/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1790/A%20-%20Polycarp%20and%20the%20Day%20of%20Pi/solution.py) |
+| 1791A | [Codeforces Checking](https://codeforces.com/contest/1791/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1791/A%20-%20Codeforces%20Checking/solution.py) |
+| 1829A | [Love Story](https://codeforces.com/contest/1829/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1829/A%20-%20Love%20Story/solution.py) |
+| 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.py) |
+| 1971B | [Different String](https://codeforces.com/contest/1971/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1971/B%20-%20Different%20String/solution.py) |
+| 1985A | [Creating Words](https://codeforces.com/contest/1985/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1985/A%20-%20Creating%20Words/solution.cpp) |
+| 2044B | [Normal Problem](https://codeforces.com/contest/2044/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2044/B%20-%20Normal%20Problem/solution.cpp) |
+| 2065A | [Skibidus and Amog'u](https://codeforces.com/contest/2065/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2065/A%20-%20Skibidus%20and%20Amog'u/solution.py) |
+| 2065B | [Skibidus and Ohio](https://codeforces.com/contest/2065/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2065/B%20-%20Skibidus%20and%20Ohio/solution.py) |
+| 2091A | [Olympiad Date](https://codeforces.com/contest/2091/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2091/A%20-%20Olympiad%20Date/solution.py) |
+| 2094A | [Trippi Troppi](https://codeforces.com/contest/2094/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2094/A%20-%20Trippi%20Troppi/solution.py) |
+| 2132A | [Homework](https://codeforces.com/contest/2132/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2132/A%20-%20Homework/solution.py) |
+| 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2167/B%20-%20Your%20Name/solution.py) |
+
+### ternary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1996A | [Legs](https://codeforces.com/contest/1996/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/1996/A%20-%20Legs/solution.py) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2259A | [Moo Language School](https://codeforces.com/contest/2259/problem/A) | 800 | [Python 3](https://github.com/AsherJamshaid/CodeForces/blob/HEAD/2259/A%20-%20Moo%20Language%20School/solution.py) |
 
 ---
 
