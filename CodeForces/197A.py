@@ -1,6 +1,0 @@
-s = input()
-s = s.replace("+", "")
-temp = list(map(int, s))   
-temp.sort()   
-result = '+'.join(map(str, temp))
-print(result)
